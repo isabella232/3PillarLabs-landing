@@ -116,7 +116,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/contact.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -168,3 +168,18 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+.bg-image{ padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/ssk.jpg) no-repeat center center;
+    background-size: cover;}
+
+.test {
+  background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    height: 58.5%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
