@@ -1,0 +1,43 @@
+/*
+Syntax error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 1 space.
+        on line 14 of F:\BootStrap\bootstrap\css\bootstrap1.css
+
+9:  */
+10: .clearfix {
+11:  *zoom: 1;
+12: }
+13: .clearfix:before, .clearfix:after {
+14: 	display: table;
+15: 	line-height: 0;
+16: 	content: "";
+17: }
+18: .clearfix:after {
+19: 	clear: both;
+
+Backtrace:
+F:\BootStrap\bootstrap\css\bootstrap1.css:14
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:424:in `block in tabulate'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:382:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:382:in `each_with_index'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:382:in `tabulate'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:345:in `_to_tree'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:315:in `_render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/engine.rb:262:in `render'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `each'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/plugin/compiler.rb:235:in `watch'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/plugin.rb:107:in `method_missing'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/exec.rb:452:in `watch_or_update'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/exec.rb:315:in `process_result'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/exec.rb:41:in `parse'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/lib/sass/exec.rb:21:in `parse!'
+C:/Ruby200/lib/ruby/gems/2.0.0/gems/sass-3.2.9/bin/sass:9:in `<top (required)>'
+C:/Ruby200/bin/sass:23:in `load'
+C:/Ruby200/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 1 space.\A         on line 14 of F:\BootStrap\bootstrap\css\bootstrap1.css\A \A 9:  */\A 10: .clearfix {\A 11:  *zoom: 1;\A 12: }\A 13: .clearfix:before, .clearfix:after {\A 14: 	display: table;\A 15: 	line-height: 0;\A 16: 	content: \"\";\A 17: }\A 18: .clearfix:after {\A 19: 	clear: both;"; }
