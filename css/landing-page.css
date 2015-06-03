@@ -90,6 +90,11 @@ h6 {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 2px;
+    width: 50px;
+}
+
+.btn-top{
+    width: 150px;
 }
 
 .content-section-a {
